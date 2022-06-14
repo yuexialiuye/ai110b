@@ -18,9 +18,17 @@ def MSE(a, x, y):
 
 def loss(p):
 	return MSE(p, x, y)
+
 # p = [0.0, 0.0]
 # plearn = optimize(loss, p, max_loops=3000, dump_period=1)
 
+def optimize():
+    # 請修改這個函數，自動找出讓 loss 最小的 p
+    p = [2,1] # 這個值目前是手動填的，請改為自動尋找。(即使改了 x,y 仍然能找到最適合的回歸線)
+    # p = [3,2] # 這個值目前是手動填的，請改為自動尋找。(即使改了 x,y 仍然能找到最適合的回歸線)
+    return p
+
+p = optimize()
 
 
 
