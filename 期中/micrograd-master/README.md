@@ -1,3 +1,4 @@
+#非原創，原作者為karpathy https://github.com/karpathy/micrograd
 
 # micrograd
 
